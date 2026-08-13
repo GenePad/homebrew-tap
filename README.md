@@ -22,4 +22,4 @@ Update later with `brew upgrade genepad` (or `brew upgrade --cask genepad`).
 - macOS **arm64 (Apple Silicon)** only for now. Intel is not yet supported.
 - The app is currently **unsigned**; on first launch macOS may prompt — right-click → Open, or run
   `xattr -dr com.apple.quarantine /Applications/GenePad.app`.
-- Homepage: https://genepad.cn · Source: https://github.com/Masterchiefm/GenePad
+- Homepage: https://genepad.cn
