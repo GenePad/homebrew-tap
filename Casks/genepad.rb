@@ -1,6 +1,6 @@
 cask "genepad" do
-  version "0.6.4"
-  sha256 "598ac12fbcd9fe1e4b43452b08faf110149444eb2079c955c1d44ecb47336b0e"
+  version "0.6.5"
+  sha256 "cd0f869bf0b12640007e119141b087ca049b58212895e014f64e42f672135b04"
 
   url "https://genepad.cn/release/mac/macos-app.zip",
       verified: "genepad.cn"
