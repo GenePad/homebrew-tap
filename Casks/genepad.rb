@@ -9,6 +9,10 @@ cask "genepad" do
   desc "DNA sequence viewer and editor"
   homepage "https://genepad.cn"
 
+  # 应用带内置 updater(tauri-plugin-updater)原地自更新;声明后 brew outdated/upgrade
+  # 不再用 cask 钉死的旧 zip 覆盖自更新版本(--greedy 除外),version/sha256 bump 照旧
+  auto_updates true
+
   livecheck do
     url "https://genepad.cn/update.json"
     strategy :json do |json|
