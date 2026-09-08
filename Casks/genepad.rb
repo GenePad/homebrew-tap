@@ -1,9 +1,10 @@
 cask "genepad" do
   version "0.7.1"
-  sha256 "cfbcedd330cf362c7a39cbca4f6e778243ea606910aa04b310b54c36b662ee32"
+  sha256 "fbeb5f176d3b32eaa95f3999067f2316a0aec1a4a9c00a0c40b1c90228a98e80"
 
-  # 0.7.1 起 .app.zip 停产(macOS 渠道精简为 dmg + updater 用 .app.tar.gz),url 改指版本化 dmg
-  url "https://genepad.cn/release/mac/GenePad_#{version}_Darwin_arm64.dmg",
+  # 与应用内 updater / 官网一键脚本共用同一份 .app.tar.gz（同文件同哈希）；
+  # 0.7.1 起 .app.zip 停产（macOS 渠道精简为 dmg + .app.tar.gz）
+  url "https://genepad.cn/release/mac/GenePad_#{version}_Darwin_arm64.app.tar.gz",
       verified: "genepad.cn"
 
   name "GenePad"
