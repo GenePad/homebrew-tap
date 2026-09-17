@@ -1,6 +1,6 @@
 cask "genepad" do
-  version "0.7.2"
-  sha256 "12202776ea4fd6f01a767b41f68d1a5bb3c6ca5bb350a2c2a990a01f4098a9ef"
+  version "0.7.3"
+  sha256 "4ca17cae7735a35d844a4e624a069d98bee9855d6eeb9767f175b94fdd05e48e"
 
   # 与应用内 updater / 官网一键脚本共用同一份 .app.tar.gz（同文件同哈希）；
   # 0.7.1 起 .app.zip 停产（macOS 渠道精简为 dmg + .app.tar.gz）
